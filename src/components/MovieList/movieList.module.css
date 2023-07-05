@@ -12,3 +12,7 @@
 .movieList_item:hover{
     background-color:rgb(230, 230, 230);
 }
+
+.navLink1{
+    color: blueviolet;
+}
