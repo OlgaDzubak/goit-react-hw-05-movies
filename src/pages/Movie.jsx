@@ -16,7 +16,7 @@ const Movie = () => {
 
     const location = useLocation();
     const refLocation = useRef(location?.state?.from ?? paths.HOME);
-   
+    
     return (
         <main>
             <section>

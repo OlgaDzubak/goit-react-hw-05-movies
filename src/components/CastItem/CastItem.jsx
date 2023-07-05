@@ -1,4 +1,5 @@
 import css from './castItem.module.css';
+import PropTypes from 'prop-types'
 
 export const CastItem = ({photo, actorName='Unknown actor', character='Unknown'}) => {
 
@@ -14,4 +15,10 @@ export const CastItem = ({photo, actorName='Unknown actor', character='Unknown'}
             <p className={css.character}>Character : <span>{character ? character : 'Unknown'}</span></p>
         </li>
     );
+}
+
+CastItem.propTypes = {
+  photo : PropTypes.string,
+  actorName: PropTypes.string,
+  character: PropTypes.string
 }

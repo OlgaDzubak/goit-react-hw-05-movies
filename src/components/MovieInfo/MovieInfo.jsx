@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { paths } from '../../routes';
 import css from './movieInfo.module.css';
-
+import PropTypes from 'prop-types';
 
 //===========================================================================================
 const MovieInfo = ({
@@ -50,3 +50,14 @@ const MovieInfo = ({
 
 export default MovieInfo;
 //===========================================================================================
+
+MovieInfo.propTypes = {
+    path : PropTypes.string,
+    id : PropTypes.number, 
+    title : PropTypes.string,
+    poster_path : PropTypes.string,
+    release_year : PropTypes.string,
+    overview : PropTypes.string,
+    genres: PropTypes.array,
+    vote_average: PropTypes.number,
+} 

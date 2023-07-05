@@ -1,4 +1,6 @@
 import css from './reviewsItem.module.css';
+import PropTypes from 'prop-types';
+
 
 //===================================================================================
 const ReviewsItem = ({name='Unknown author', review='No review'}) => {
@@ -13,3 +15,8 @@ const ReviewsItem = ({name='Unknown author', review='No review'}) => {
 
 export default ReviewsItem;
 //===================================================================================
+
+ReviewsItem.propTypes = {
+    name: PropTypes.string,
+    review: PropTypes.string,
+}
