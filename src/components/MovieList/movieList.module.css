@@ -1,0 +1,14 @@
+.movieList{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: max-content;
+    margin-top: 20px;
+}
+.movieList_item{
+    font-weight: bold;
+}
+.movieList_item:focus,
+.movieList_item:hover{
+    background-color:rgb(230, 230, 230);
+}

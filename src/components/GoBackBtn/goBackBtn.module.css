@@ -1,0 +1,11 @@
+.btnLink {
+    width:max-content;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.btnLink:hover,
+.btnLink:focus{
+    font-weight: bold;
+}

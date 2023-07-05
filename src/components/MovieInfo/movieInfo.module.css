@@ -1,0 +1,66 @@
+.addInf_div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid rgb(200, 200, 200);
+    border-bottom: 2px solid rgb(200, 200, 200);;
+}
+
+.addInf_p{
+    font-weight: bold;
+}
+
+.release_year{
+    font-size: 16px;
+}
+
+.navLink{
+    color:blue;
+}
+
+.movieDetails{
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+
+.imgPoster_div{
+   min-width: 200px;
+   max-width: 200px;
+}
+
+.imgPoster{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.noPoster_p{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height:200px;
+    text-align: center;
+    border: 1px solid rgb(200,200,200);
+}
+/* .movieInfoText{
+    
+} */
+
+.overViewTitle,
+.GenresTitle{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    .movieDetails{
+        flex-direction: column;
+    }
+    .imgPoster_div{
+        max-width: 200px;
+        height: auto;
+     }
+    .imgPoster{
+        margin-bottom: 10px;
+    }
+}

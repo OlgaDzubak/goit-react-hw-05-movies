@@ -1,0 +1,8 @@
+.authorTitle{
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.review{
+    width: calc(100vw - 100px);
+    margin-bottom: 15px;
+}
