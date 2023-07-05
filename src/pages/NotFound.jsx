@@ -1,0 +1,1 @@
+export const NotFound = () => { return <p>Page not found! Please chech the path and try again.</p> }
