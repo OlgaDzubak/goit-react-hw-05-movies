@@ -10,6 +10,7 @@ const Cast = lazy(()=>import('./CastList/Cast'));
 const Reviews = lazy(()=>import('./ReviewsList/Reviews'));
 
 //===========================================================================================
+
 const App = () => {
 
     return (
